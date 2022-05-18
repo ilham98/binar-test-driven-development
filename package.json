@@ -1,0 +1,24 @@
+{
+  "name": "binar-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node index",
+    "test": "cross-env NODE_ENV=test jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "sequelize": "^6.19.2",
+    "sqlite3": "^5.0.8",
+    "supertest": "^6.2.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^28.1.0"
+  }
+}
